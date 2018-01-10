@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 exec \
-	s6-setuidgid abc tmux new-session weechat -d /config
+	s6-setuidgid abc tmux new-session -d weechat -d /config
