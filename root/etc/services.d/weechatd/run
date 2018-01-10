@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+	s6-setuidgid abc tmux new-session weechat -d /config
